@@ -1,0 +1,26 @@
+{
+  "name": "orgname/myProj",
+  "description": "test proj",
+  "version": "1.0.0",
+  "type": "project",
+  "license": "GPL-3.0",
+  "homepage": "http://orgname.com",
+  "authors": [
+      {
+          "name": "myname",
+          "email": "myname@mail.com",
+          "homepage": "http://orgname.com"
+      }
+  ],
+  "autoload": {
+	  "psr-4": {
+		  "Model\\": "Model/"
+	  }
+  },
+  "require": {
+    "doctrine/collections": "*",
+    "doctrine/dbal": "*",
+    "doctrine/orm": "*",
+    "gedmo/doctrine-extensions": "*"
+  }
+}
